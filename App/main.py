@@ -149,7 +149,7 @@ def get_scaled_values(input_dict):
     return scaled_dict
 
 def add_predictions(input_data):
-    model = pickle.load(open(r"C:\Users\Akshith shetty\Desktop\Python(Projects)\Breast Cancer Detection\Model\model.pkl",'rb'))
+    model = pickle.load(open("Model\model.pkl",'rb'))
 
     input_array = np.array(list(input_data.values())).reshape(1,-1)
 
