@@ -4,6 +4,16 @@ import pandas as pd
 import plotly.graph_objects as go
 import numpy as np
 
+# --- Hide Streamlit UI Elements ---
+hide_streamlit_style = """
+    <style>
+    #MainMenu {visibility: hidden;}
+    footer {visibility: hidden;}
+    header {visibility: hidden;}
+    </style>
+"""
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 def get_clean_data():
     data = pd.read_csv("data/data.csv")
     data = data.drop(['Unnamed: 32', 'id'], axis=1)
