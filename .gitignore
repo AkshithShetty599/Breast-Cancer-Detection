@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings
+.vscode/
+
+# Data and model files (optional: keep them if they're public or dummy)
+Data/data.csv
+Model/model.pkl
+
+# Streamlit cache (optional)
+.streamlit/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs and backups
+*.log
+*.bak
+
+# Python environment files
+*.env
+*.env.*
