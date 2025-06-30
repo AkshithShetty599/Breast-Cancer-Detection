@@ -14,13 +14,6 @@ venv/
 # VS Code settings
 .vscode/
 
-# Data and model files (optional: keep them if they're public or dummy)
-Data/data.csv
-Model/model.pkl
-
-# Streamlit cache (optional)
-.streamlit/
-
 # OS-specific
 .DS_Store
 Thumbs.db
