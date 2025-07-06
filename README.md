@@ -16,7 +16,7 @@ The goal of this project is to support medical professionals with an AI-assisted
 
 ---
 
-### ✨ [Demo](https://price-prediction-yb6b.onrender.com/) <!-- Replace with actual deployment link when ready -->
+### ✨ [Demo](https://breast-cancer-detection-8ars.onrender.com/) <!-- Replace with actual deployment link when ready -->
 
 ---
 
